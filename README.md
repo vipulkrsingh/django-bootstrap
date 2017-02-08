@@ -22,6 +22,7 @@ From the root of the directory run the following command
 ```
 $ docker-compose up
 ```
+Then open up ```http://127.0.0.1:8000/``` in browser.
 
 End with an example of getting some data out of the system or using it for a little demo
 
