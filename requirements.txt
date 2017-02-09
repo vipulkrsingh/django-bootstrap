@@ -1,2 +1,10 @@
 Django
 psycopg2
+coreapi
+djangorestframework
+markdown
+django-filter
+django-crispy-forms
+django-guardian
+django-rest-swagger
+sphinx
