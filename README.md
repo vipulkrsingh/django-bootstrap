@@ -13,10 +13,8 @@ What things you need to install the software and how to install them
 
 TBD - Add links to docker and docker-compose installation
 
-```
 [Docker](https://docs.docker.com/engine/installation/)
 [Docker-compose](https://docs.docker.com/compose/install/)
-```
 
 ### Installing
 

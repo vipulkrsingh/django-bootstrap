@@ -20,6 +20,8 @@ from rest_framework_swagger.views import get_swagger_view
 from .views import UserDetails
 from .views import UsersList
 from .views import UserAuthToken
+from tasks.views import TaskList
+from . import settings
 
 schema_view = get_swagger_view(title='My Project API')
 
@@ -29,6 +31,14 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # url(r'^api/users/$', Users1.as_view()),
     url(r'^users/$', UsersList.as_view()),
+    url(r'^task/$', TaskList.as_view()),
+    # url(r'^taskview/$', TaskListView.as_view()),
     url(r'^users/(?P<pk>[0-9]+)/$', UserDetails.as_view()),
     url(r'^users/get_auth_token/$', UserAuthToken.as_view()),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns += [
+        url(r'^__debug__/', include(debug_toolbar.urls)),
+    ]

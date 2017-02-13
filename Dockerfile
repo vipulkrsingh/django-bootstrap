@@ -12,11 +12,10 @@ WORKDIR /app/
 ADD requirements.txt /app/requirements.txt
 
 # install python dependencies
-RUN pip install -r requirements.txt
+CMD pip install -r requirements.txt
 
 # ??
 ADD . /app/
-
 # TODO do we need this?
 # # create unprivileged user
 # RUN adduser --disabled-password --gecos '' entrayn

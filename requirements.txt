@@ -8,3 +8,7 @@ django-crispy-forms
 django-guardian
 django-rest-swagger
 sphinx
+django-autofixture
+django-extensions
+jupyter
+django-debug-toolbar
