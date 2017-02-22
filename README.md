@@ -1,6 +1,6 @@
 # Django Bootstrap
 
-Disposable Django environment that can be used for learning or rapid prototyping.
+Disposable Django environment that can be used for learning or rapid prototyping. 
 
 
 ## Getting Started
