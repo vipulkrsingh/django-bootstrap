@@ -2,9 +2,10 @@ from django.db import models
 from django.utils import timezone
 import uuid
 
-#TODO add ability to add tags
-#TODO support for task types
-#TODO support for projects
+# TODO add ability to add tags
+# TODO support for task types
+# TODO support for projects
+
 
 class Task(models.Model):
   id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -18,6 +19,7 @@ class Task(models.Model):
 
   def __str__(self):
     return self.title
+
 
 class TaskActivity(models.Model):
   id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)

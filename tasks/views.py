@@ -8,11 +8,12 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.views.generic import ListView
 
+
 class TaskList(APIView):
     """
     List all Tasks, or create a new task.
     """
-    #ANY USER
+    # ANY USER
     authentication_classes = ()
     permission_classes = ()
 
