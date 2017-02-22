@@ -1,4 +1,4 @@
-# Django Bootstrap
+# Django Bootstrap [![Build Status](https://travis-ci.org/vipulkrsingh/django-bootstrap.svg?branch=master)](https://travis-ci.org/vipulkrsingh/django-bootstrap)
 
 Disposable Django environment that can be used for learning or rapid prototyping. 
 
