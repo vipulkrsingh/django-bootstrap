@@ -8,4 +8,4 @@ install:
 # command to run tests
 script:
   - pep8 ./**/*.py --exclude=migrations,docs --ignore=E501,E111,E114
-  - pyflakes ./**/*.py
+# - pyflakes ./**/*.py
